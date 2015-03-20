@@ -1,2 +1,6 @@
 $(document).ready(function(){
-  var card_array =                                       
+  $('#button').on('click',function(){
+    var item = $('#placeholder').val();
+    $('ul').append('<li>'+item+'</li');
+  });
+  });
